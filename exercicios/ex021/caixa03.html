@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de borda decorada </title>
+    <link rel="shortcut icon" href="elefante.ico" type="image/x-icon">
+<style>
+    body {
+        background-color: rgb(231, 176, 137);
+    }
+    h1{
+        border: 10px solid transparent;
+        padding: 10px;
+        border-image-source: url("borda.png");
+        border-image-slice: 27;
+        border-image-repeat: repeat;
+        /*ou pode ser os 3 elementos na mesma linha border-image: url(borda.png) 27 repeat*/
+    }
+</style>
+</head>
+<body>
+    <h1>Exemplo de Borda decorada</h1>
+</body>
+</html>
