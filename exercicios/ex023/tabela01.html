@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        padding: 10px;
+        border: 2px solid rgb(39, 54, 39);
+        height: 400px;
+        width: 400px;
+        border-collapse: collapse;
+    }
+    
+    tr {
+         background-color: rgb(230, 195, 218);
+         border: 2px  solid   rgb(121, 109, 109);
+    }
+
+    td {
+        border: 2px solid black;
+    }
+
+     td.linha1 {
+       background-color: brown;
+    }
+
+    tr.linha01 {
+       background-color: burlywood;
+    }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="linha1">a1</td>
+            <td>b1</td>
+            <td>c1</td>
+            <td>d1</td>
+        </tr>
+        <tr class="linha01">
+            <td>a2</td>
+            <td class="linha1">b2</td>
+            <td>c2</td>
+            <td>d2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b3</td>
+            <td class="linha1">c3</td>
+            <td>d3</td>
+        </tr>
+        <tr class="linha01">
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+            <td class="linha1">d4</td>
+    
+    </table>
+    
+</body>
+</html>
